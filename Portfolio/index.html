@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Adam</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="demo.js"></script>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">O MNĚ</a></li>
+            <li><a href="#experience">ZKUŠENOSTI</a></li>
+            <li><a href="#projects">PROJEKTY</a></li>
+            <li><a href="#contact">KONTAKTUJ MĚ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>ZDRAVÍM</h1>
+        <h2>Jsem Adam</h2>
+        <p>Designér interiérů</p>
+    </div>
+    <div class="hero-image">
+        <img src="foto.jpeg" alt="hero_photo">
+    </div>
+</section>
+
+<section id="about">
+    <h2>O MNĚ</h2>
+    <p>Jsem interiérový designér s vášní pro estetiku, funkčnost a detail. Pomáhám klientům vytvářet prostory, které
+        odráží jejich osobnost a potřeby.</p>
+    <p>O desing interiérů se zabívám už od mala. Vždy jsem tvořil návrhy jen tak pro zabavu ale v poslední době jsem
+        začal dělat i návrhy na zakázku. </p>
+    <p> Od tohoto YouTube kanálu se učím a inspiruji :
+        <a href="https://www.youtube.com/@ReynardLowell" target="_blank" class="no-underline"><strong>Reynard
+            Lowell</strong></a>
+    </p>
+    <p> Programy, které používam jsou Planner 5D: House Design Software a Adobe Photosop. </p>
+</section>
+
+<section id="experience">
+    <h2>ZKUŠENOSTI</h2>
+    <p>Zatím sice nemám mnoho zkušeností, ale aktivně se vzdělávám a do budoucna plánuji absolvovat kurzy zaměřené na
+        design.</p>
+</section>
+
+<section id="projects">
+    <h2>PROJEKTY</h2>
+    <div class="project-gallery">
+        <img src="project1.jpg" alt="project1">
+        <img src="project2.jpg" alt="project2">
+    </div>
+    <p class="project-note">Můj nejnovější projekt (Na míru dělaná kuchyně)</p>
+</section>
+
+<section id="contact">
+    <h2>KONTAKTUJ MĚ</h2>
+    <form>
+        <label for="name">Jméno a Příjmení:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Dotaz:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Odeslat</button>
+    </form>
+</section>
+
+</body>
+</html>
